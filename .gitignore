@@ -17,3 +17,6 @@ submissions/
 CLAUDE.md
 .ipynb_checkpoints/
 .DS_Store
+# MLflow (local tracking)
+mlflow.db
+mlruns/
