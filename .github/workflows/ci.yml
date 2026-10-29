@@ -27,7 +27,8 @@ jobs:
 
       - name: Tests (pytest)
         run: uv run pytest
-    docker:
+
+  docker:
     runs-on: ubuntu-latest
     steps:
       - name: Récupérer le code
